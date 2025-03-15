@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV</title>
+    <link rel="stylesheet" href="css\styleindex.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo</h1>
+        <p id="horario">Carregando horário...</p>
+    </header>
+
+    <section>
+        <h2>Faça seu Login</h2>
+        <p>Ano de Nascimento:</p>
+        <input type="number" id="txtano" min="1900" max="2025">
+        <br>
+        <input type="button" value="Entrar" onclick="verificar()">
+    </section>
+
+    <!-- Menu suspenso (inicia oculto) -->
+    <div id="menu" class="menu-suspenso">
+        <h3>Escolha uma opção:</h3>
+        <ul>
+            <li><a href="analisadordenumeros.html">Analisador de Números</a></li>
+            <li><a href="tabuada.html">Tabuada</a></li>
+            <li><a href="vamoscontar.html">Vamos Contar</a></li>
+        </ul>
+        <button onclick="fecharMenu()">Fechar</button>
+    </div>
+
+    <footer>
+        <p>&copy; Sara Cristina</p>
+    </footer>
+
+    <script src="js\index.js"></script>
+</body>
+</html>

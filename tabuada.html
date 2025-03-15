@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styletabuada.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <!-- 🔹 CABEÇALHO -->
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+
+    <!-- 🔹 MENU -->
+    <div class="menu-container">
+        <button class="mainmenubtn" onclick="toggleMenu()">Menu</button>
+        <div id="menu" class="menu-suspenso">
+            <h3>Escolha uma opção:</h3>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="analisadordenumeros.html">Analisador de Números</a></li>
+                <li><a href="vamoscontar.html">Vamos Contar</a></li>
+            </ul>
+            <button onclick="fecharMenu()">Fechar</button>
+        </div>
+    </div>
+
+    <!-- 🔹 SEÇÃO PRINCIPAL -->
+    <section>
+        <div>
+            <p>Número: <input type="number" name="num" id="txtn" min="1">
+                <input type="button" class="adicionar-btn" value="Gerar Tabuada" onclick="tabuada()"></p>
+        </div>
+        <div id="res">
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima!</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- 🔹 RODAPÉ -->
+    <footer>
+        <p>&copy; Sara Cristina</p>
+    </footer>
+
+    <script src="js/tabuada.js"></script>
+</body>
+</html>

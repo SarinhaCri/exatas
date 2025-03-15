@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Números</title>
+    <link rel="stylesheet" href="css\styleanalisador.css">
+</head>
+<body> 
+
+    <!-- 🔹 CABEÇALHO -->
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+
+    <!-- 🔹 SEÇÃO PRINCIPAL -->
+    <section>
+        <div class="menu-container">
+            <button class="mainmenubtn" onclick="toggleMenu()">Menu</button>
+            <div id="menu" class="menu-suspenso">
+                <h3>Escolha uma opção:</h3>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="tabuada.html">Tabuada</a></li>
+                    <li><a href="vamoscontar.html">Vamos Contar</a></li>
+                </ul>
+                <button onclick="fecharMenu()">Fechar</button>
+            </div>
+        </div>
+
+        <div class="input-container">
+            <label for="fnum">Digite um número de 1 a 100:</label>
+            <input type="number" id="fnum" min="1" max="100">
+            <button class="adicionar-btn" onclick="adicionar()">Adicionar</button>
+        </div>
+
+        <div class="list-container">
+            <select id="flista" size="8"></select>
+        </div>
+
+        <button class="finalizar-btn" onclick="finalizar()">Finalizar</button>
+        
+        <div id="res"></div>
+    </section>
+
+    <!-- 🔹 RODAPÉ -->
+    <footer>
+        <p>&copy; Sara Cristina</p>
+    </footer>
+
+    <script src="js\analisadordenumeros.js"></script>
+</body>
+</html>

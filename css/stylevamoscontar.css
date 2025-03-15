@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #64747B;
+    color: #E2DCD0;
+    text-align: center;
+}
+
+header {
+    color: #E2DCD0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-container {
+    margin-bottom: 20px; 
+    display: inline-block; 
+}
+
+.menu-suspenso {
+    display: none; 
+    position: absolute; 
+    background-color: #64747B;
+    border-radius: 10px; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(141, 155, 134, 0.9);
+    text-align: center; 
+}
+
+.menu-suspenso h3 {
+    color: #E2DCD0;
+}
+
+.menu-suspenso ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-suspenso ul li {
+    margin: 10px 0;
+}
+
+.menu-suspenso ul li a {
+    color: #E2DCD0;
+    text-decoration: none;
+}
+
+.menu-suspenso ul li a:hover {
+    color: #8D9B86; 
+}
+
+section {
+    background-color: #64747B;
+    color: #E2DCD0;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(141, 155, 134, 0.9);
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.adicionar-btn {
+    background-color: #64747B;
+    color: #E2DCD0;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(141, 155, 134, 0.9); 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+
+.adicionar-btn:hover {
+    background-color: #8D9B86; 
+    transform: translateY(-2px); 
+}
+
+/* MENU */
+.mainmenubtn {
+    background-color: #64747B;
+    color: #E2DCD0;
+    border: none;
+    padding: 10px; 
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(141, 155, 134, 0.9);
+    transition: background-color 0.3s, transform 0.3s; 
+    
+}
+
+.mainmenubtn:hover {
+    background-color: #64747B; 
+    transform: translateY(-2px); 
+}
+
+
+footer {
+    margin-top: 20px;
+    font-size: 1rem;
+    opacity: 0.7;
+}

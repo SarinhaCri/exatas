@@ -1,2 +1,1 @@
-# exatas
-Este projeto é uma aplicação educacional interativa que visa facilitar o aprendizado de matemática.
+Este projeto é uma aplicação educacional interativa que visa facilitar o aprendizado de matemática. A página 'Início' oferece uma visão geral das funcionalidades disponíveis, enquanto o 'Analisador de Números' permite que os usuários realizem análises e cálculos diversos com números, promovendo a compreensão de conceitos matemáticos. A seção 'Tabuada' proporciona uma maneira prática e divertida de aprender e praticar as tabuadas, reforçando o conhecimento matemático de forma lúdica e acessível.
